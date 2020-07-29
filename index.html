@@ -26,15 +26,16 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <style></style>
     <title>Document</title>
   </head>
-  <body>
+  <body style="background-color: rgba(243, 242, 242, 0.877); height: 100%;">
     <nav class="navbar navbar-dark bg-dark mb-3">
       <div class="container">
         <a href="#" class="navbar-brand">GitHub Finder</a>
       </div>
     </nav>
-    <div class="container searchContainer">
+    <div class="container searchContainer main">
       <div class="card card-body search">
         <h1 class="card-tittle">Search GitHub Users</h1>
         <p class="card-text lead text-muted">
@@ -49,10 +50,15 @@
       </div>
       <div id="profile"></div>
     </div>
-    <footer class="mt-5 p-3 text-center bg-light">
+  </body>
+  <div class="wrapper">
+    <footer
+      class="mt-5 p-3 text-center"
+      style="background-color: rgb(224, 224, 224);"
+    >
       GitHub &copy
     </footer>
-  </body>
+  </div>
 </html>
 <script src="github.js"></script>
 <script src="ui.js"></script>
